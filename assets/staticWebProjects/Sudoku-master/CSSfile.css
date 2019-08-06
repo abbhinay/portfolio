@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+body {
+  background-image: url(crossword-eyeglasses-eyewear-53209.jpg);
+}
+
+.headerContainer {
+  text-align: center;
+  /*    padding: 10px ;*/
+  /*    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
+}
+
+h3 {
+  padding-top: 40px;
+  font-size: 1.8em;
+}
+
+.containerGame {
+  padding-top: 40px;
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.container7,
+.container8,
+.container9 {
+  display: flex;
+  /*    border: 1px solid black;*/
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.box {
+  border: 0.5px solid black;
+  flex-basis: 1.5em;
+  height: 1.5em;
+  text-align: center;
+}
+
+.one_three,
+.two_three,
+.three_three,
+.four_three,
+.five_three,
+.six_three,
+.seven_three,
+.eight_three,
+.nine_three,
+.one_six,
+.two_six,
+.three_six,
+.four_six,
+.five_six,
+.six_six,
+.seven_six,
+.eight_six,
+.nine_six {
+  border-right: 2px solid black;
+}
+
+.three_one,
+.three_two,
+.three_three,
+.three_four,
+.three_five,
+.three_six,
+.three_seven,
+.three_eight,
+.three_nine,
+.six_one,
+.six_two,
+.six_three,
+.six_four,
+.six_five,
+.six_six,
+.six_seven,
+.six_eight,
+.six_nine {
+  border-bottom: 2px solid black;
+}
+
+/*NUMBER PAD*/
+.num1,
+.num2,
+.num3 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine {
+  flex-basis: 2em;
+  height: 2em;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.containerNumPad {
+  padding-top: 40px;
+}
+
+/*BUTTON*/
+.buttonContainer {
+  text-align: center;
+  padding-top: 40px;
+}
+
+.button {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(34, 34, 34);
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/*BUTTON CHECK*/
+.buttonCheckContainer,
+.CheckContainer {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.buttonCheck,
+.Check {
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgb(39, 174, 96);
+  color: white;
+  margin-bottom: 50%;
+}
+
+@media (min-width: 750px) {
+  .buttonContainer,
+  .buttonCheckContainer {
+    display: grid;
+  }
+
+  .button,
+  .buttonCheck {
+    justify-self: center;
+    min-width: 300px;
+  }
+
+  body {
+    background-image: url(abstract-antique-backdrop-132193.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: luminosity;
+  }
+}
